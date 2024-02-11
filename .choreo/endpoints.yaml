@@ -1,0 +1,7 @@
+http:
+  routes:
+    - path: /forecast/
+      method: POST
+      backend:
+        type: http
+        url: ${BACKEND_URL}/forecast/
